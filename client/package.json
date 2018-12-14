@@ -1,0 +1,65 @@
+{
+  "name": "ModelViewer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "d3": "^5.7.0",
+    "dat.gui": "^0.7.3",
+    "di18n-translate": "^0.0.9",
+    "element-ui": "^2.4.7",
+    "file-saver": "^2.0.0-rc.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "three": "^0.96.0",
+    "three-gltf-loader": "^1.96.0",
+    "three-orbitcontrols": "^2.96.2",
+    "uuid": "^3.3.2",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-plugin-unit-mocha": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/eslint-config-standard": "^3.0.3",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-plugin-component": "^1.1.1",
+    "chai": "^4.1.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

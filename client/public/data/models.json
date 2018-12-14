@@ -1,0 +1,64 @@
+{
+  "version": "0.0.2",
+  "description": "三维模型库描述文件",
+  "models": [
+    {
+      "name": "055",
+      "description": "055驱逐舰",
+      "type": "Platform",
+      "categories": ["Warship", "Destroy"],
+      "model": "055.glb",
+      "north": "-180",
+      "installs": [
+        {
+          "name": "055_jianpao_h",
+          "description": "主炮",
+          "type": "Attach",
+          "rotate": {
+            "y": [-120, 120],
+            "x": [5, 85]
+          },
+          "fitTypes": ["Weapon"],
+          "fitCategories": ["NavalGun"]
+        }
+      ]
+    },
+    {
+      "name": "P3C",
+      "description": "P-3C海上巡逻反潜机",
+      "type": "Platform",
+      "categories": ["AirPlane", "AntiSubmarine"],
+      "model": "p3c.glb",
+      "north": "-180",
+      "parts": [
+
+      ]
+    },
+    {
+      "name": "HPJ38",
+      "description": "H/PJ38型单130mm舰炮",
+      "type": "Weapon",
+      "categories": ["NavalGun"],
+      "model": "jianpao.glb",
+      "north": "-180",
+      "parts": [
+        {
+          "name": "turret",
+          "type": "Part",
+          "description": "炮台",
+          "rotate": {
+            "y": []
+          }
+        },
+        {
+          "name": "gunbarrel",
+          "type": "Part",
+          "description": "炮管",
+          "rotate": {
+              "x": [-5, 85]
+          }
+        }
+      ]
+    }
+  ]
+}

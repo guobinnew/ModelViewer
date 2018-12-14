@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+logs/
+temp/
+bin/
+client/public/models/
+client/public/textures/
+.DS_Store
+client/dist/
